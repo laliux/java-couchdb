@@ -15,12 +15,14 @@ curl -X PUT http://127.0.0.1:5984/twitterdb
 
 Entrar al sitio de desarrolladores de Twitter y crear una aplicación para obtener las claves correspondientes. Poner los valores en el archivo config.properties. Escribir también el nombre de la base de datos CouchDB creada previamente. Por ejemplo:
 
+<p>
 consumerSecret=KUXXl1eS32klppoPUYo5aFQMK7d1qlQV7sw3SceoC5gnXXXXX
 consumerKey=3LO49LkTSlZioyYvf4rMXXXXX
 accessToken=94026329-ahHzE0UQ6yn1gwmuq8TRLgdFPFoxPoqmkP6XXXXX
-accessSecret=KPgHqvIvZD206uAwEuP3LOPStz1bRfraFxAFrfXXXXX
-couchdb=twitterdb
+accessSecret=KPgHqvIvZD206uAwEuP3LOPStz1bRfraFxAFrfXXXXX <br>
+couchdb=twitterdb <br>
 debug=false
+</p>
 
 
 Compilar el proyecto. Se requiere tener instalado Maven.
