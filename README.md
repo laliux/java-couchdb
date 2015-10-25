@@ -1,7 +1,7 @@
 # java-couchdb
 Uso del API de Twitter para descargar tweets y almacenarlos en una base NoSQL CouchDB.
 
-Instalar de CouchDB en Ubuntu
+Instalar CouchDB en Ubuntu o Debian.
 
 <pre>
 sudo apt-get install couchdb
@@ -13,7 +13,7 @@ Crear una base de datos en CouchDB vía curl. Ejecutar en la consola:
 curl -X PUT http://127.0.0.1:5984/twitterdb
 </pre>
 
-Entrar al sitio de desarrolladores de Twitter y crear una aplicación para obtener los claves correspondientes. Poner los valores en el archivo config.properties, por ejemplo:
+Entrar al sitio de desarrolladores de Twitter y crear una aplicación para obtener las claves correspondientes. Poner los valores en el archivo config.properties. Escribir también el nombre de la base de datos CouchDB creada previamente. Por ejemplo:
 
 consumerSecret=KUXXl1eS32klppoPUYo5aFQMK7d1qlQV7sw3SceoC5gnXXXXX
 consumerKey=3LO49LkTSlZioyYvf4rMXXXXX
@@ -22,10 +22,8 @@ accessSecret=KPgHqvIvZD206uAwEuP3LOPStz1bRfraFxAFrfXXXXX
 couchdb=twitterdb
 debug=false
 
-Escribir también el nombre de la base de datos CouchDB creada previamente.
 
-
-Compilar el proyecto. Se requiere tener instalado Maven,..
+Compilar el proyecto. Se requiere tener instalado Maven.
 
 <pre>
 mvn clean compile package
