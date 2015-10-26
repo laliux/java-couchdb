@@ -23,7 +23,7 @@ Entrar al sitio de desarrolladores de Twitter y crear una aplicación para obten
 <b>accessToken</b>=94026329-ahHzE0UQ6yn1gwmuq8TRLgdFPFoxPoqmkP6XXXXX <br>
 <b>accessSecret</b>=KPgHqvIvZD206uAwEuP3LOPStz1bRfraFxAFrfXXXXX <br>
 <b>couchdb</b>=twitterdb <br>
-<b>debug=false
+<b>debug</b>=false
 </p>
 
 <h3>Java</h3>
