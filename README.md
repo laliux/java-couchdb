@@ -15,15 +15,15 @@ curl -X PUT http://127.0.0.1:5984/twitterdb
 </pre>
 
 <h3>Twitter</h3>
-Entrar al sitio de desarrolladores de Twitter y crear una aplicación para obtener las claves correspondientes. Poner los valores en el archivo config.properties. Escribir también el nombre de la base de datos CouchDB creada previamente. Por ejemplo:
+Entrar al sitio de desarrolladores de Twitter y crear una aplicación para obtener las claves correspondientes. Poner los valores en el archivo <i>config.properties</i>. Escribir también el nombre de la base de datos CouchDB creada previamente. Por ejemplo:
 
 <p>
-consumerSecret=KUXXl1eS32klppoPUYo5aFQMK7d1qlQV7sw3SceoC5gnXXXXX
-consumerKey=3LO49LkTSlZioyYvf4rMXXXXX
-accessToken=94026329-ahHzE0UQ6yn1gwmuq8TRLgdFPFoxPoqmkP6XXXXX
-accessSecret=KPgHqvIvZD206uAwEuP3LOPStz1bRfraFxAFrfXXXXX <br>
-couchdb=twitterdb <br>
-debug=false
+<b>consumerSecret</b>=KUXXl1eS32klppoPUYo5aFQMK7d1qlQV7sw3SceoC5gnXXXXX
+<b>consumerKey</b>=3LO49LkTSlZioyYvf4rMXXXXX <br>
+<b>accessToken</b>=94026329-ahHzE0UQ6yn1gwmuq8TRLgdFPFoxPoqmkP6XXXXX <br>
+<b>accessSecret</b>=KPgHqvIvZD206uAwEuP3LOPStz1bRfraFxAFrfXXXXX <br>
+<b>couchdb</b>=twitterdb <br>
+<b>debug=false
 </p>
 
 <h3>Java</h3>
